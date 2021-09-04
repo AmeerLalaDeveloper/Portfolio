@@ -8,7 +8,7 @@ window.onscroll=function () {
 header.classList.add('active');
 span.style.color="#fff";
 
-    }
+    }    
     else{
 
         header.classList.remove('active');
