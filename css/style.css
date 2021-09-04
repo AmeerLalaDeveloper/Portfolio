@@ -65,11 +65,11 @@ section {
   height: 25%;
 }
 .section-heading h2 {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
 }
 .section-heading h3 {
   color: var(--primary-color);
-  font-size: 3rem;
+  font-size: 2rem;
 }
 ul {
   list-style-type: none;
@@ -133,7 +133,7 @@ a {
 }
 .btn {
   padding: 2rem;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   border-radius: 25px;
   text-align: center;
   color: #fff;
@@ -157,13 +157,13 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  max-width: 1400px;
+  max-width: 1100px;
   margin: auto;
   height: 100%;
 }
 
 .logo {
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 0 2rem;
   margin: auto 0;
 }
@@ -177,7 +177,7 @@ header ul li a {
   height: 80%;
   margin-top: 1rem;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2rem;
   border-right: 1px solid #fff;
 }
 header nav ul li a:hover {
@@ -208,11 +208,11 @@ header nav ul li a:hover {
   align-items: flex-start;
 }
 #home .container h3 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 #home .container h1,
 #home .container h2 {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 /*About*/
@@ -236,10 +236,10 @@ header nav ul li a:hover {
   text-align: center;
 }
 #about .content .info h2 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 #about .content .info p {
-  font-size: 2.5rem;
+  font-size: 1.4rem;
   line-height: 1.5;
 }
 
@@ -260,11 +260,11 @@ header nav ul li a:hover {
 }
 #services .content .box h3,
 #services .content .box i {
-  font-size: 4rem;
+  font-size: 2.5rem;
   padding: 1rem;
 }
 #services .content .box p {
-  font-size: 1.75rem;
+  font-size: 1.4rem;
   width: 80%;
   margin: auto;
   text-align: justify;
@@ -276,12 +276,12 @@ header nav ul li a:hover {
   padding: 1rem;
 }
 #skills .content .info h3 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   text-align: center;
   padding-top: 2rem;
 }
 #skills .content .info p {
-  font-size: 2.75rem;
+  font-size: 1.75rem;
   color: rgb(122, 110, 110);
   width: 90%;
   margin: 0 auto;
@@ -299,7 +299,7 @@ header nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   color: var(--primary-color);
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 #skills .content .progress .skill .skill-progress {
   height: 5px;
@@ -337,11 +337,11 @@ header nav ul li a:hover {
   padding: 1rem;
 }
 #contact .content .info .heading-info h4 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 #contact .content .info .heading-info p {
-  font-size: 2.5rem;
+  font-size: 1.4rem;
   width: 80%;
   margin: auto;
   padding: 1.5rem 0;
@@ -351,14 +351,14 @@ header nav ul li a:hover {
   width: 100%;
 }
 #contact .content .info .personal-info i {
-  font-size: 4rem;
+  font-size: 2rem;
   color: var(--primary-color);
 }
 #contact .content .info .personal-info h5 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 #contact .content .info .personal-info span {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 #contact .content .form-control {
@@ -371,7 +371,7 @@ header nav ul li a:hover {
 }
 
 #contact .content .form-control form #name {
-  width: 50%;
+  width: 49.5%;
 }
 
 #contact .content .form-control form #email {
@@ -387,7 +387,7 @@ header nav ul li a:hover {
 
 #contact .content .form-control form input {
   padding: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 #contact .content .form-control form .btn {
   width: 60%;
