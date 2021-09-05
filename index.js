@@ -5,8 +5,8 @@ window.onscroll=function () {
     var top=window.scrollY;
     if(top>=200){
         
-header.classList.add('active');
-span.style.color="#fff";
+    header.classList.add('active');
+    span.style.color="#fff";
 
     }    
     else{

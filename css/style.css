@@ -1,6 +1,6 @@
 :root {
   --primary-color: rgb(38, 54, 11);
-  animation: animate-bg-color 40s infinite;
+  animation: animate-bg-color 30s infinite;
 }
 @keyframes animate-bg-color {
   0% {
@@ -19,22 +19,22 @@
     --primary-color: rgb(66, 30, 50);
   }
   50% {
-    --primary-color: rgb(68, 15, 15);
+    --primary-color: #2196f3;
   }
   60% {
     --primary-color: rgb(154, 155, 153);
   }
   70% {
-    --primary-color: rgb(146, 191, 233);
+    --primary-color: #2196f3;
   }
   80% {
-    --primary-color: rgb(165, 236, 41);
+    --primary-color: rgb(89, 100, 71);
   }
   90% {
     --primary-color: rgb(39, 29, 34);
   }
   100% {
-    --primary-color: rgb(181, 226, 15);
+    --primary-color: #2196f3;
   }
 }
 
@@ -69,7 +69,7 @@ section {
   animation-name: animate-head;
   animation-delay: 1s;
   animation-duration: 12s;
-  animation-iteration-count: 10;
+  animation-iteration-count: 0;
 }
 
 @keyframes animate-head {
