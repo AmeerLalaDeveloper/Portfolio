@@ -61,9 +61,55 @@ section {
   margin-left: auto;
   height: 90vh;
 }
+
 .section-heading {
   height: 25%;
+  transform: translateX(0);
+  transition: transform 2s 1s ease-in;
+  animation-name: animate-head;
+  animation-delay: 1s;
+  animation-duration: 12s;
+  animation-iteration-count: 10;
 }
+
+@keyframes animate-head {
+  0% {
+    transform: translateX(-200px);
+  }
+  10% {
+    transform: translateX(-160px);
+  }
+  20% {
+    transform: translateX(-120px);
+  }
+  30% {
+    transform: translateX(-80px);
+  }
+  40% {
+    transform: translateX(-40px);
+  }
+  50% {
+    transform: translateX(0px);
+    box-shadow: 10px 10px 10px gray;
+  }
+  60% {
+    transform: translateX(40px);
+  }
+  70% {
+    transform: translateX(80px);
+  }
+  80% {
+    transform: translateX(120px);
+    box-shadow: none;
+  }
+  90% {
+    transform: translateX(160px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 .section-heading h2 {
   font-size: 4.5rem;
 }
